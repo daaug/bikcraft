@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/css/normalize.css' %}">
+  <link rel="stylesheet" href="{% static '/css/reset.css' %}">
+  <link rel="stylesheet" href="{% static '/css/grid.css' %}">
+  <link rel="stylesheet" href="{% static '/css/style.css' %}">
+  <title>Bikcraft - Home</title>
 </head>
 <body>
-  {{ name }}
+
+  <header class="header">
+    <div class="container">
+      <div class="logo"><img src="{% static '/img/bikcraft.svg'%}" alt=""></div>
+      <nav class="menu-header">
+        <ul>
+          <li><a href="">About us</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
 </body>
 </html>

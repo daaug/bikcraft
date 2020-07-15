@@ -1,0 +1,49 @@
+/* Default */
+.container {
+  width: 940px;
+}
+
+p, a {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  color: #000;
+}
+
+/* Header */
+.header {
+  background: #FEC63E;
+  position: fixed;
+  height: 80px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+
+.header .logo {
+  float: left;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header .menu-header {
+  float: right;
+}
+
+.header .menu-header ul {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.header .menu-header ul li {
+  margin: 0 10px;
+}
+
+.header .menu-header ul li a {
+  font-weight: bold;
+  transition: color .5s;
+}
+
+.header .menu-header ul li a:hover {
+  color: #fff;
+}
